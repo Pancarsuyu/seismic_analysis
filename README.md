@@ -29,11 +29,14 @@ Bu proje, farklı kaynaklardan gelen sismik verileri (waveform, katalog, HDF5 pi
     ```bash
     pip install pandas plotly obspy numpy pytz h5py
     ```
-    *Not: Python 3.8 veya üzeri bir sürüm önerilir.*
+
 
 ## Klasör Yapısı
 
-Proje aşağıdaki klasör yapısını kullanır:
+<details>
+<summary><strong>👤 Proje Dizin Yapısı (Tıklayarak Göster/Gizle)</strong></summary>
+
+```
 seismic_analysis/
 │
 ├── README.md                # Bu dosya
@@ -67,7 +70,9 @@ seismic_analysis/
     │
     └── eqt/                 # EQTransformer çıktıları
         └── summary.csv      # EQT tarafından üretilen summary dosyası
+```
 
+</details>
 
 ## Yapılandırma (`config/config.py`)
 
