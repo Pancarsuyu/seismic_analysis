@@ -1,0 +1,8 @@
+# seismic_analysis/requirements.txt
+
+pandas
+plotly
+obspy
+numpy
+pytz
+h5py
